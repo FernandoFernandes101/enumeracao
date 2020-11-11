@@ -12,6 +12,10 @@ public class Program {
 		Order order = new Order(1500, new Date(), OrderStatus.DELIVERED);
 		
 		System.out.println(order);
+		
+		OrderStatus os1 = OrderStatus.DELIVERED;
+		OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+		
 
 	}
 
